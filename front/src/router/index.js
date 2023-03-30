@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Template.vue'
 import exp1_1 from '../views/exp-1-1.vue'
 import exp1_2 from '../views/exp-1-2.vue'
+import login from '../views/login'
 import showpdf from '../views/showpdf.vue'
 import exp4_1 from '../views/exp-4-1.vue'
 
@@ -20,8 +21,12 @@ const routes = [
     ]
   },
   {
-    path: '/show',
-    component: showpdf
+    path:'/show',
+    component:showpdf
+  },
+  {
+    path:'/login',
+    component:login
   }
 ]
 
